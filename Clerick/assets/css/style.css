@@ -1,0 +1,76 @@
+*,
+*::after
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+body{font-family: "Noto Sans", sans-serif;}
+
+.header{
+    background-color: #163A24;
+    color: #fff;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.conteyner{
+    max-width: 1080px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.header__warpper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__link{
+    color: #fff;
+}
+
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn{
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 100px;
+}
+
+.first-section{
+    background-color: #163A24;
+    background: url(../img/men.svg)
+    height: calc(100vh-98px);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.first-section__text-block{
+    color: #fff;
+    max-width: 491px;
+    padding-top: 120px;
+}
+
+.section___title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.first-section__sub-block{
+    font-size: 18px;
+}
+
+.second-second{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
